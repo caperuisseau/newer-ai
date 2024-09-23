@@ -58,7 +58,7 @@ function genererReponse(input) {
     }
 
     // Choisir une réponse aléatoire
-    const responseArray = responses[input] || ["Désolé, je ne comprends pas. Essayez quelque chose d'autre !"];
+    const responseArray = responses[input] || ["Désolé, je ne savais pas répondre a ça merci de m'avoir appris"];
     return responseArray[Math.floor(Math.random() * responseArray.length)];
 }
 
