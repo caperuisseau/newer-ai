@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newer AI Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Newer AI Chat</h1>
+        <input type="text" id="aiName" placeholder="Donnez un nom à l'IA" />
+        <button id="setNameBtn">Nommer l'IA</button>
+    </header>
+
+    <main>
+        <div id="chatBox"></div>
+        <div id="langSelect">
+            <label for="language">Choisir la langue :</label>
+            <select id="language">
+                <option value="fr">Français</option>
+                <option value="en">Anglais</option>
+            </select>
+        </div>
+        <div id="chatInput">
+            <input type="text" id="userInput" placeholder="Écrivez un message...">
+            <button id="sendBtn">Envoyer</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
